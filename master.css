@@ -15,12 +15,38 @@ body{
 }
 
 header{
+  position: relative;
   background-image: url("immagini/naturaltheme.jpg");
   background-size: cover;
   background-color: white;
-  height: 200px;
+  height: 300px;
   margin-top: 3%;
   border: solid white 8px;
+}
+
+
+.img-title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-family: verdana;
+  color: white;
+  text-transform: uppercase;
+  border: solid white 3px;
+  bo
+}
+
+.another{
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-family: verdana;
+  color: white;
+  text-transform: uppercase;
 }
 
 nav{
@@ -60,7 +86,7 @@ nav{
   font-family: helvetica;
   font-size: 25px;
   text-transform: uppercase;
-  line-height: 70px;
+  line-height: 3;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -68,7 +94,7 @@ nav{
 p{
   font-family: helvetica;
   font-size: 14px;
-  line-height: 25px;
+  line-height: 2;
   margin-left: 5%;
   margin-right: 5%;
   margin-bottom: 5%;
@@ -89,7 +115,7 @@ p{
 .textwidget{
   font-family: helvetica;
   font-size: 25px;
-  line-height: 70px;
+  line-height: 3;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -107,7 +133,8 @@ p{
 }
 
 footer{
-  background-color: gray;
+  border-radius: 5px;
+  background-color: white;
   height: 200px;
   margin-bottom: 5%;
 }
