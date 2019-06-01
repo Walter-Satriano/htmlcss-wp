@@ -14,6 +14,7 @@ body{
   margin: auto;
 }
 
+/*Inizio definizione stile header*/
 header{
   position: relative;
   background-image: url("immagini/naturaltheme.jpg");
@@ -47,22 +48,35 @@ header{
   color: white;
   text-transform: uppercase;
 }
+/*Fine definizione stile header*/
 
-#navigation{
+
+/*Inizio definizione stile menù navigazione*/
+.navigation{
   position: relative;
   background-color: gray;
-  height: 50px;
+  height: 60px;
   margin-bottom: 2%;
 }
 
-.style-text li{
-  display: inline;
-  font-size: 15px;
+#menu{
+  font-size: 12px;
   font-family: verdana;
   color: white;
   text-transform: uppercase;
+  list-style: none;
 }
 
+#menu li{
+  display: block;
+  width: 14%;
+  float: left;
+  text-align: center;
+  margin-top: 2.5%;
+}
+/*Fine definizione stile menù navigazione*/
+
+/*Inizio definizione stili delle colonne e loro contenuto*/
 .clearfix{
   position: relative;
 }
@@ -73,7 +87,6 @@ header{
   clear: both;
 }
 
-/*definizione stili delle colonne e loro contenuto*/
 .colonnasx{
   border-radius: 5px;
   background-color: white;
@@ -140,10 +153,43 @@ header{
   background-color: white;
   margin-bottom: 10%;
 }
+/*Fine definizione stili delle colonne e loro contenuto*/
 
+/*Inizio definizione stile colonne e contenuto del footer*/
 footer{
   border-radius: 5px;
   background-color: white;
   height: 200px;
   margin-bottom: 5%;
+}
+
+.realized{
+  color: gray;
+  font-size: 15px;
+  font-family: verdana;
+  font-style: oblique;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+
+}
+
+#line{
+  border: solid darkgrey 2px;
+}
+
+#icon{
+  list-style: none;
+  text-align: center;
+  padding-top: 5%;
+}
+
+#icon li{
+  display: inline-block;
+  width: 33%;
+}
+
+.size{
+  width: 40px;
+  height: auto;
 }
