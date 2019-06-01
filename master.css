@@ -53,7 +53,6 @@ header{
 
 /*Inizio definizione stile menù navigazione*/
 .navigation{
-  position: relative;
   background-color: gray;
   height: 60px;
   margin-bottom: 2%;
@@ -90,10 +89,36 @@ header{
 .colonnasx{
   border-radius: 5px;
   background-color: white;
-  height: 400px;
   width: 25%;
   float:left;
 }
+
+.feed{
+  float: left;
+  width: 30px;
+  height: auto;
+  margin-top: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.title-sx{
+  display: inline;
+  font-family: helvetica;
+  font-size: 25px;
+  line-height: 1.2;
+}
+
+.text-sx h3{
+  font-family: helvetica;
+  font-size: 16px;
+  color: yellowgreen;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 10%;
+  padding-bottom: 8%;
+}
+
 
 .colonnacenter{
   background-color: white;
@@ -104,7 +129,7 @@ header{
   margin-right: 5%;
 }
 
-.title{
+.title-center{
   font-family: helvetica;
   font-size: 25px;
   text-transform: uppercase;
@@ -155,7 +180,7 @@ header{
 }
 /*Fine definizione stili delle colonne e loro contenuto*/
 
-/*Inizio definizione stile colonne e contenuto del footer*/
+/*Inizio definizione stile e contenuto del footer*/
 footer{
   border-radius: 5px;
   background-color: white;
@@ -193,3 +218,4 @@ footer{
   width: 40px;
   height: auto;
 }
+/*Fine definizione stile e contenuto del footer*/
